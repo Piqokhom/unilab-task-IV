@@ -1,0 +1,490 @@
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: open-sans;
+    src: url(../fonts/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: firago;
+    src: url(../fonts/malayalam.ttf);
+}
+
+@font-face {
+    font-family: andadapro;
+    src: url(../fonts/AndadaPro-Bold.ttf);
+}
+@font-face {
+    font-family: andadapro-it;
+    src: url(../fonts/AndadaPro-MediumItalic.ttf);
+}
+@font-face {
+    font-family: poppinsit;
+    src: url(../fonts/Poppins-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: poppinsb;
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: andadaprobit;
+    src: url(../fonts/AndadaPro-ExtraBoldItalic.ttf);
+}
+@font-face {
+    font-family: andadapro-ex-b;
+    src: url(../fonts/AndadaPro-ExtraBold.ttf);
+
+}
+
+
+
+    /* home page */
+header {
+    border-bottom: 1px solid;
+    padding-bottom: 23px;
+  
+}
+
+.header-div {
+width: 100%;
+display: flex;
+justify-content: space-between;
+margin-top: 35px;
+}
+
+.logo {
+    margin-left: 126px;
+}
+
+.nav-div {
+margin-right: 60px;
+}
+.nav-ul {
+    display: flex;
+    justify-content: space-between;
+
+}
+.li-items {
+    margin-left: 51px;
+}
+
+
+a {
+    font-size: 16px;
+    font-family: poppins;
+    text-decoration: none;
+    color: black;
+  
+}
+.user {
+    margin-right: 126px;
+}
+
+
+h1 {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+.main-box1 {  
+display: inline-block; 
+margin-inline: 75px;   
+margin-top: 80px;
+margin-bottom: 118px;
+height: 505px;
+width: 335px;
+}
+.product-content img {
+    width: 100%;
+}
+.product-content  {
+    padding: 10px 10px 15px 10px;
+    border: 1px solid black;
+    margin-left: 30px;
+}
+h3, p {
+    padding-top: 20px;
+    padding-left: 26px;
+    padding-right: 21px;
+    font-family: poppins;
+}
+h3 {
+    font-size: 16px;
+    line-height: 24px;
+}
+p {
+    padding-bottom: 20px;
+    font-size: 14px;
+    line-height: 21px;
+}
+.button-box {
+    text-align: right;
+    padding-top: 23px;
+    border-radius: 4px;
+}
+
+.button-box :hover {
+    background-color: rgb(74, 71, 71);
+    color: white;
+}
+.specifications ul {
+    list-style-type: disc;
+    list-style-position: inside;
+    padding-top: 35px;
+    padding-bottom: 110px;
+    padding-left: 26px ;
+    line-height: 19px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.specifications ul li {
+    display: list-item;
+}
+
+.more-products {
+    text-align: right;
+    margin-right: 61px;
+    margin-bottom: 90px;
+    text-decoration: underline;
+}
+.more-products :hover {
+    background-color: rgb(74, 71, 71);
+    color: white;
+    
+}
+
+
+
+/* about us page */
+
+.about-us-p {
+height: 205px;
+width: 650px;
+margin-left: 126px;
+margin-top: 90px;
+font-family: andadapro;
+
+
+}
+.aboutus{
+    font-size: 25px;
+    line-height: 41px;
+    font-family: sans-serif;
+}
+
+
+h2 {
+    margin-top: 115px;
+    font-family: andadapro;
+    color: #7D0000;
+    font-size: 40px;
+    line-height: 54.5px;
+    font-weight: 600px;
+    text-align: center;
+}
+
+.adress2 {
+    font-family: andadapro-it;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 375px;
+    line-height: 34px;
+    font-weight: 400px;
+    
+}
+
+.about-us-image {
+    max-width: 500px;
+    height: 333px;
+    margin-left: 795px;
+}
+.about-div-img {
+    width: 100%;
+    margin-top: -150px;
+}
+
+
+
+/* contact us */
+.mail{
+    margin-top: 100px;
+    margin-left: 0px;
+    font-size: 25px;
+    text-decoration: underline;
+    font-family: andadapro-it;
+    font-weight: 600px;
+    line-height: 34px;
+}
+
+.main-info.div {
+    max-width: 1440px;
+}
+.info {
+    max-width: 100pxpx;
+    height: 70px;
+    font-family: andadapro;
+    line-height: 34px;
+    font-size: 27px;
+   margin-top: 85px;
+}
+
+.mail, .phone {
+    width: 100%;
+}
+
+.info-line2{
+    max-width: 100px;
+    height: 70px;
+    margin-left: 900px;
+    margin-top: 85px;
+   
+}
+
+.hours, .adress1 {
+    font-family: andadapro;
+    line-height: 34px;
+    font-size: 27px;
+}
+
+
+
+/* blog-page */
+.blog-section {
+    font-size: 24px;
+    font-family: firago;
+    height: 40px;
+    max-width: 480px;
+    margin-left: 80px;
+    margin-top: 45px;
+
+}
+
+.blog-categories {
+    max-width: 790px;
+    margin-top: 65px;
+    margin-left: 405px;
+}
+
+
+.blog-nav-ul {
+    width: 100%;  
+}
+
+.fashion, .beauty, .travel, .art {
+    display: inline;
+    inline-size: 15px;
+    margin-left: 55px;
+    margin-right: 65px;
+    font-size: 18px;
+    font-family: firago; 
+}
+
+
+.blog-articles {
+    max-width: 1210px;
+    height: 267px;
+    margin-top: 90px;
+    margin-left: 94px;
+}
+.article-1-photo {
+    max-width: 310px;
+    
+}
+.photo1 {
+    width: 100%;
+    display: inline-block;
+    
+}
+
+.article-1-body {
+    max-width: 910px;
+    height: 230px;
+    margin-left: 360px;
+    margin-top: -233px;
+    display: inline-block;
+    vertical-align: top;
+    background-color:  #E5EBE5;
+    text-align: left;
+    
+}
+h5 {
+    margin-left: 25px;
+    margin-top: 40px;
+    font-family: firago;
+}
+
+.article-1-text {
+font-size: 14px;
+font-weight: 600px;
+}
+
+.article-button {
+    max-width: 180px;
+    margin-bottom: 350px;
+    margin-left: 1065px;
+}
+.article-button :hover {
+    background-color: rgb(74, 71, 71);
+    color: white;
+}
+
+
+.blog-articles2 {
+    max-width: 1210px;
+    height: 320px;
+    margin-top: 100px;
+    margin-left: 94px;
+}
+.article-2-photo {
+    max-width: 310px;
+    
+}
+.photo2 {
+    width: 100%;
+    display: inline-block;
+    
+}
+
+.article-2-body {
+    max-width: 910px;
+    height: 230px;
+    margin-left: 360px;
+    margin-top: -233px;
+    display: inline-block;
+    vertical-align: top;
+    background-color:  #E5EBE5;
+    text-align: left;
+    
+}
+h5-2 {
+    margin-left: 25px;
+    margin-top: 40px;
+    font-family: firago;
+}
+
+.article-2-text {
+font-size: 14px;
+font-weight: 600px;
+}
+
+.article-button {
+    max-width: 180px;
+    margin-bottom: 350px;
+    margin-left: 1065px;
+}
+
+
+
+
+/* user page */
+
+.profile {
+    max-width: 444px;
+    height: 170px;
+    margin-top: 180px;
+    margin-left: 206px;
+}
+
+.name {
+margin-left: 200px;
+margin-top: -130px;
+font-size: 30px;
+font-family: poppins;
+}
+.occupation {
+margin-left: 200px;
+margin-top: 1px;
+font-size: 22px;
+font-family: poppinsit;
+color: #546CCC;
+}
+
+.designer-info {
+height: 240px;
+max-width: 100px;
+margin-left: 210px;
+margin-top: 80px;
+font-family: poppinsb;
+font-size: 20px;
+}
+.about-line-p {
+    border-bottom: 1px solid black;
+}
+
+.designer-info-2 {
+height: 180px;
+max-width: 270px;
+margin-left: 420px;
+margin-top: -180px; 
+font-family: poppins;  
+}
+
+.profile-button {
+    max-width: 350px;
+    margin-left: 856px;
+    margin-top: 25px;
+   
+}
+.edit-info-button {
+    font-family: poppins;
+    font-size: 25px;
+    padding: 15px 10px;
+    background-color:  #87AC87;
+    color: white;
+    border: #E5EBE5;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+
+/* contact us page */
+
+.contact-div {
+max-width: 280px;
+height: 120px;
+margin-left: 270px;
+margin-top: 80px;
+}
+.contact-mail-li {
+    font-family: andadapro-it;
+    font-size: 27px;
+    text-decoration: underline;
+}
+.phone-p {
+    font-family: andadapro-ex-b;
+    font-size: 27px;
+}
+
+.contact-div-2 {
+    max-width: 350px;
+    height: 120px;
+    margin-left: 920px;
+    margin-top: -120px;
+    }
+    .contact-adress-p {
+        font-family: andadapro;
+        font-size: 27px;
+    }
+    .phone-li {
+        font-family: andadaprob;
+        font-size: 27px;
+    }
+
+    .map {
+        height: 700px;
+    }
+    iframe {
+        width: 960px;
+        height: 423px;
+        margin-top: 135px;
+        margin-left: 270px;
+        margin-bottom: 20px;
+    }
